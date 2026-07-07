@@ -4,14 +4,14 @@ Uma página de erro **404 personalizada** desenvolvida para a cafeteria fictíci
 
 ## 📸 Preview
 
-> *(Adicione aqui uma captura de tela da página ou um GIF do projeto.)*
+![Preview Desktop](assets/preview-desktop.png)
 
 ---
 
 ## 🚀 Demonstração
 
 🔗 **Acesse o projeto:**  
-*(https://henriquelins26.github.io/aurora-coffee-404/)*
+👉 <a href="https://henriquelins26.github.io/aurora-coffee-404/" target="_blank" rel="noopener noreferrer">Clique aqui para acessar o site</a>
 
 ---
 
@@ -86,10 +86,7 @@ As escolhas de paleta de cores e tipografia foram definidas com auxílio de Inte
 
 Desenvolvido por **Henrique Lins**
 
-- GitHub: https://github.com/HenriqueLins26
-- LinkedIn: *https://www.linkedin.com/in/henrique-lins-aragao*
+- GitHub: <a href="https://github.com/HenriqueLins26" target="_blank" rel="noopener noreferrer">Meu Perfil no GitHub</a>
+- LinkedIn: <a href="https://www.linkedin.com/in/henrique-lins-aragao" target="_blank" rel="noopener noreferrer">Meu Perfil no LinkedIn</a>
 
 ---
-
-
-👉 <a href="" target="_blank" rel="noopener noreferrer">Clique aqui para acessar o site</a>
