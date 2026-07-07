@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sofia&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor0: #000;
+    --cor1: #FFF;
+    --cor2: #632B12;
+    --cor3: #E7A12D;
+    --cor4: #FEEDDA;
+
+    --fonttitulo: 'Sofia';
+    --fontsub: 'Playfair Display';
+    --fonttexto: 'Nunito';
+}
+
+body{ 
+    background-color: var(--cor4);
+    color: var(--cor2);
+}
+
+span{
+    font-family: var(--fonttitulo);
+}
+
+p{
+    font-family: var(--fonttexto);
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor2);
+    font-size: 20px;
+
+}
+
+h1{
+    font-family: var(--fonttitulo);
+    margin-top: -30px;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+h2{
+    font-family: var();
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-princ {
+    margin: 20px 0px;
+}
+
+.logo-princ img{
+    width: 140px;
+}
+
+.erro img {
+    margin: 0px 0px 20px 0px;
+    width: 450px;
+    transition: .6s;
+}
+
+.erro img:hover{
+    transform: rotate(5deg);
+}
+
+.erro a{
+    display: inline-block;
+    margin: 30px 10px;
+}
+
+.erro-pagina{
+    font-family: var(--fontsub);
+    display: block;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.botao-home{
+    font-family: var(--fonttexto);
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: var(--cor2);
+    color: var(--cor1);
+    box-shadow: 5px 5px 10px #00000069;
+    transition: 0.4s;
+}
+
+.botao-cardap {
+    font-family: var(--fonttexto);
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 800;
+    background-color: var(--cor3);
+    color: var(--cor2);
+    box-shadow: 5px 5px 10px #00000041;
+    transition: 0.4s;
+}
+
+.botao-home:hover{
+    box-shadow: none;
+    background-color: #4A1E0B;
+}
+
+.botao-cardap:hover{
+    box-shadow: none;
+    background-color: #C98618;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    text-decoration: underline;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+    
+
