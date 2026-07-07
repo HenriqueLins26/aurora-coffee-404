@@ -104,6 +104,8 @@ h2{
 }
 
 .bto{
+    display: inline-block;
+    text-align: center;
     box-shadow: 3px 5px 10px #00000042;
     transition:  background-color .4s, box-shadow .4s;
     width: 100%;
