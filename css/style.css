@@ -35,7 +35,6 @@ body{
 
 p{
     font-size: 20px;
-    text-align: center;
 }
 
 a{
@@ -64,11 +63,12 @@ h2{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    text-align: center;
 }
 
 .img-respon {
     display: block;
-    width: 100%;
+    width: 80%;
     max-width: 100%;
     height: auto;
     margin: auto;
@@ -89,8 +89,6 @@ h2{
 
 .erro-pagina{
     font-family: var(--fontsub);
-    display: block;
-    text-align: center;
     font-size: 80px;
     font-weight: 600;
 }
@@ -106,9 +104,11 @@ h2{
 }
 
 .bto{
-    box-shadow: 3px 5px 10px #00000036;
+    box-shadow: 3px 5px 10px #00000042;
     transition:  background-color .4s, box-shadow .4s;
-    padding: 10px 40px;
+    width: 100%;
+    max-width: 200px;
+    padding: 10px 0px;
     border-radius: 10px;
     cursor:pointer;
 }
@@ -131,11 +131,16 @@ h2{
 }
 
 .cardap{
+    font-weight: 800;
     background-color: var(--cor3);
 }
 
 .cardap:hover{
     background-color: var(--cor5);
+}
+
+footer {
+    text-align: center;
 }
 
 footer a{
@@ -151,4 +156,41 @@ footer a:focus-visible{
     border-radius: 5px;
     outline: 2px solid var(--cor3);
     outline-offset: 1px;
+}
+
+@media screen and (max-width: 480px){
+    body{
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 55px;
+    }
+
+    h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    p, a{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .container{
+        gap: 10px;
+    }
+
+    .logo-princ img{
+        max-width: 100px;
+    }
+
+    .erro-pagina{
+        font-size: 60px;
+    }
+
+    .botao{
+        flex-direction: column;
+    }
+    
 }
