@@ -2,9 +2,13 @@
 
 Uma página de erro **404 personalizada** desenvolvida para a cafeteria fictícia **Aurora Coffee House**. O objetivo do projeto foi criar uma experiência agradável para o usuário ao encontrar uma página inexistente, mantendo a identidade visual da marca.
 
-## 📸 Preview
+## 📸 Desktop
 
-![Preview Desktop](assets/preview-desktop.png)
+![Desktop](assets/desktop.png)
+
+## 📱 Mobile
+
+![Mobile](assets/mobile.png)
 
 ---
 
