@@ -6,10 +6,6 @@ Uma página de erro **404 personalizada** desenvolvida para a cafeteria fictíci
 
 ![Desktop](assets/desktop.png)
 
-## 📱 Mobile
-
-![Mobile](assets/mobile.png)
-
 ---
 
 ## 🚀 Demonstração
